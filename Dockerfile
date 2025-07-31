@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Step 2: Set working directory inside the container
-WORKDIR /app
+WORKDIR /node-js-sample
 
 # Step 3: Copy package.json and install dependencies
 COPY package*.json ./
